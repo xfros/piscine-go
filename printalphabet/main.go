@@ -9,6 +9,12 @@ func main() {
 		var aRune string = "abcdefghijklmnopqrstuvwxyz"
 
 		z01.PrintRune(rune(aRune[i]))
+<<<<<<< HEAD
     }
     
 }
+=======
+	}
+	
+}
+>>>>>>> 818c2d4649dc2b73e65462a5dbc99d398c4f977b
