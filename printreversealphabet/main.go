@@ -3,11 +3,10 @@ package main
 import "github.com/01-edu/z01"
 
 func main() {
-	i := 25
-	for i >= 0 {
-		var xrune string = "abcdefghijklmnopqrstuvwxyz"
-		z01.PrintRune(rune(xrune[i]))
-		i--
+	var xrune rune = 'z'
+	for xrune >= 'a' {
+		z01.PrintRune(xrune)
+		xrune--
 	}
 	z01.PrintRune(10)
 }
