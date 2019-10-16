@@ -7,4 +7,5 @@ func main() {
 		var aRune string = "abcdefghijklmnopqrstuvwxyz"
 		z01.PrintRune(rune(aRune[i]))
 	}
+	z01.PrintRune('\n')
 }
