@@ -6,9 +6,8 @@ func main() {
 
 		for i:= 0; i <= 25; i++ {
 	
-		var aRune string = "abcdefghijklmnopqrstuvwxyz"
+				var aRune string = "abcdefghijklmnopqrstuvwxyz"
 
-		z01.PrintRune(rune(aRune[i]))
+				z01.PrintRune(rune(aRune[i]))
     }
-    
-}
+   }
